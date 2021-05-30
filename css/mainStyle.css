@@ -155,6 +155,52 @@ li{
     }
 }
 
+@media screen and (max-width: 600px) {
+    #socialMedia {
+        width: 100%;
+    }
+
+    ul{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    ul {
+        width: 350px;
+    }
+
+    .media {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ul {
+        width: 300px;
+    }
+
+    li{
+        width: 5rem;
+    }   
+}
+
+@media screen and (max-width: 350px) {
+    ul {
+        width: 200px;
+    }
+
+    li {
+        width: 3rem;
+    }
+}
+
 @media screen and (max-width: 675px) {
     #socialMedia {
         width: 100%;
