@@ -1,0 +1,200 @@
+#logo {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+#site {
+    background-image: url("../images/FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#fitness {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fitnessMenu {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app {
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    display: block;
+}
+
+.button {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+#canal {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.canalMenu {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appMenu{
+    display: inline-flex;
+    width: 50%;
+    float: left;
+}
+
+.title {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+#footerImage {
+    width: 100%;
+}
+
+#footerText {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+#socialMedia {
+    display: block;
+    width: 30%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media{
+    width: 70%;
+}
+
+.click:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    #socialMedia {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 1156px) {
+    #socialMedia {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 1006px) {
+    #socialMedia {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #socialMedia {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 827px) {
+    #socialMedia {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    #socialMedia {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    #socialMedia {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #socialMedia {
+        width: 100%;
+    }
+
+    li {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #logo {
+        width: 100%;
+    }
+
+    .title {
+        width: 90%;
+    }
+
+    #fitness {
+        width: 100%;
+    }
+
+    .fitnessMenu {
+        width: 100%;
+    }
+
+    #app {
+        width: 100%;
+    }
+
+    #canal {
+        width: 100%;
+    }
+
+    .canalMenu {
+        width: 100%;
+    }
+
+    #socialMedia {
+        width: 60%;
+    }
+}
